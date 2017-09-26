@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void checkCode1(View view){
-        if (editText1.getText().toString().equals("1")){
+        if (editText1.getText().toString().equals("")){
             final Animation in_anim = AnimationUtils.loadAnimation(MainActivity.this, R.anim.bounce);
             final Animation out_anim = AnimationUtils.loadAnimation(MainActivity.this, R.anim.fade_out);
             textView1.setVisibility(View.INVISIBLE); textView1.setAnimation(out_anim);
@@ -154,7 +154,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void checkCode2(View view){
-        if (editText2.getText().toString().equals("6966")){
+        if (editText2.getText().toString().equals("")){
             final Animation in_anim = AnimationUtils.loadAnimation(MainActivity.this, R.anim.bounce);
             final Animation out_anim = AnimationUtils.loadAnimation(MainActivity.this, R.anim.fade_out);
             textView4.setVisibility(View.INVISIBLE);textView4.setAnimation(out_anim);
@@ -175,7 +175,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     public void checkCode3(View view) {
-        if (editText3.getText().toString().equals("140817")){
+        if (editText3.getText().toString().equals("")){
         final Animation in_anim = AnimationUtils.loadAnimation(MainActivity.this, R.anim.bounce);
         final Animation out_anim = AnimationUtils.loadAnimation(MainActivity.this, R.anim.fade_out);
         textView6.setVisibility(View.INVISIBLE); textView6.setAnimation(out_anim);
@@ -196,7 +196,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void checkCode4(View view){
-        if (editText4.getText().toString().equals("2")){
+        if (editText4.getText().toString().equals("")){
             Intent intent = new Intent(this, SecondActivity.class);
             startActivity(intent);
             mediaPlayer.stop();

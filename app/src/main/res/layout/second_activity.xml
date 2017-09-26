@@ -54,7 +54,7 @@
                 android:id="@+id/editText2_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Вводи, не стесняйся"/>
+                android:hint=""/>
 
             <Button
                 android:layout_width="match_parent"
@@ -79,14 +79,39 @@
                 android:id="@+id/editText2_3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Вводи, не стесняйся"/>
+                android:hint=""/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/button2_3"
-                android:text="Проверить код"/>
+                android:text="Проверить код"
+                android:onClick="checkCode2_3"/>
 
+
+            <!--Заключительная секция-->
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2_4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2_4"
+                android:text="@string/text2_4"/>
+
+            <EditText
+                android:id="@+id/editText2_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button2_4"
+                android:text="Проверить код"/>
 
 
 
